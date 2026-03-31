@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-fog: #ECECEC;
+  --font-sans: var(--font-inter), "Inter", "San Francisco", sans-serif;
+}
+
+:root {
+  --background: #ECECEC;
+  --foreground: #171717;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
